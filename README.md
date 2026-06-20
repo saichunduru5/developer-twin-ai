@@ -2,131 +2,225 @@
 
 ### People Leave. Knowledge Stays.
 
-Developer Twin AI is an AI-powered knowledge management platform designed to preserve software engineering knowledge and create digital representations of developer expertise. The platform helps organizations reduce knowledge loss, improve onboarding, and maintain critical project insights even when team members leave.
+Developer Twin AI is a modern SaaS-style knowledge management platform designed to preserve software engineering knowledge and reduce knowledge loss within development teams.
+
+The platform provides repository intelligence, developer profiling, knowledge visualization, analytics, documentation management, and AI-powered knowledge discovery capabilities through a centralized dashboard experience.
 
 ---
 
-## 📖 Overview
+## 🌐 Live Demo
 
-Software teams often depend heavily on a few experienced developers who possess critical architectural, technical, and business knowledge.
-
-When these developers leave:
-
-* Important decisions become difficult to trace
-* Documentation is often incomplete
-* Knowledge silos are created
-* Onboarding new developers becomes expensive and time-consuming
-
-Developer Twin AI addresses this challenge by organizing repository knowledge, developer contributions, documentation, and project intelligence into a centralized platform.
+https://developer-twin-ai.vercel.app
 
 ---
 
-## ✨ Features
+## 📂 Source Code
 
-### 🔐 Authentication & Authorization
+https://github.com/saichunduru5/developer-twin-ai
 
-* Secure Login & Registration
-* Role-Based Access Control
-* JWT Authentication
-* Admin, Team Lead, and Developer Roles
+---
 
-### 📊 Dashboard
+## 🚧 Project Status
 
+Current Version: Frontend Architecture & UI Prototype
+
+Implemented:
+
+* Modern SaaS Dashboard UI
+* Authentication Screens
+* Developer Twin Module
+* Repository Analytics Dashboard
+* Knowledge Dependency Visualization
+* Risk Analysis Dashboard
+* Documentation Center
+* Architecture Visualization
+* Database Architecture Visualization
+* Profile & Settings Management
+
+Planned:
+
+* Spring Boot Backend
+* PostgreSQL Integration
+* Gemini AI Integration
+* ChromaDB Integration
+* Real Authentication APIs
+* Repository Synchronization
+* AI Knowledge Search
+
+---
+
+# 📖 Problem Statement
+
+Software organizations often face knowledge loss when experienced developers leave a project.
+
+Common challenges include:
+
+* Missing architectural knowledge
+* Poor documentation
+* Knowledge silos
+* Slow onboarding
+* Dependency on key developers
+* Difficulty understanding historical decisions
+
+Developer Twin AI addresses these challenges by creating a centralized platform for preserving, visualizing, and managing technical knowledge.
+
+---
+
+# 🎯 Core Features
+
+## 🔐 Authentication & Authorization
+
+* Login Interface
+* Registration Interface
+* Role-Based Access Design
+* Admin Dashboard Access
+* Team Lead Access
+* Developer Access
+
+---
+
+## 📊 Dashboard
+
+Provides:
+
+* Knowledge Health Overview
 * Project Statistics
-* Knowledge Health Score
 * Repository Insights
-* Team Activity Overview
+* Team Metrics
+* Platform Overview
 
-### 📁 Repository Management
+---
 
-* GitHub Repository Tracking
+## 📁 Repository Management
+
+Features:
+
+* Repository Tracking Interface
 * Contributor Analysis
-* Commit Analytics
-* Repository Intelligence
+* Commit Insights
+* Repository Intelligence Dashboard
 
-### 👤 Developer Twin
+---
 
-* Skill Analysis
-* Expertise Scoring
-* Technology Profiling
-* Contribution Insights
+## 👤 Developer Twin
 
-### 🤖 Ask Former Employee
+The Developer Twin module provides:
 
-Allows users to ask questions about historical project decisions and implementation details using preserved project knowledge.
+* Skill Visualization
+* Expertise Analysis
+* Contribution Tracking
+* Developer Intelligence Dashboard
+
+Purpose:
+
+To represent a developer's knowledge, contributions, and technical expertise within a project.
+
+---
+
+## 🤖 Ask Former Employee
+
+Allows users to ask questions about historical project decisions.
 
 Example:
 
-**Question**
+Question:
 
-> Why was Redis introduced into the architecture?
+Why was Redis introduced?
 
-**Answer**
+Answer:
 
-> Redis was introduced to reduce database load and improve response times based on repository history and architectural decisions.
+Redis was introduced to reduce database load and improve response time based on historical repository context.
 
-### 🕸 Knowledge Dependency Map
+---
+
+## 🕸 Knowledge Dependency Map
 
 Visualizes:
 
 * Knowledge Ownership
 * Team Dependencies
 * Critical Contributors
-* Knowledge Concentration Areas
+* Knowledge Distribution
 
-### ⚠ Knowledge Risk Score
+Benefits:
 
-Identifies:
+* Identify knowledge concentration
+* Reduce dependency risks
+* Improve team resilience
+
+---
+
+## ⚠ Knowledge Risk Score
+
+Evaluates:
 
 * Knowledge Silos
 * Single Points of Failure
 * Critical Dependency Risks
+* Team Knowledge Distribution
 
-### 💬 AI Knowledge Assistant
+---
 
-Context-aware assistant capable of answering questions using project knowledge and repository context.
+## 💬 AI Knowledge Assistant
 
-### 📝 Documentation Center
+Designed to provide:
 
-Provides:
+* Context-Aware Assistance
+* Knowledge Discovery
+* Technical Guidance
+* Repository Intelligence
+
+Future versions will integrate AI-powered search and response capabilities.
+
+---
+
+## 📝 Documentation Center
+
+Provides access to:
 
 * Architecture Documentation
 * Technical Documentation
 * Knowledge References
-* System Design Information
+* Design Information
 
-### 🔍 Knowledge Search
+---
 
-Search across:
+## 🔍 Knowledge Search
+
+Search capabilities for:
 
 * Documentation
+* Repository Content
 * Technical Knowledge
-* Repository Information
-* Historical Decisions
+* Historical Information
 
-### 📈 Analytics
+---
 
-Monitor:
+## 📈 Analytics Dashboard
+
+Tracks:
 
 * Team Activity
 * Repository Growth
 * Knowledge Distribution
 * Contribution Trends
 
-### 👨‍💼 Profile Management
+---
+
+## 👨‍💼 Profile Management
 
 Manage:
 
+* User Information
 * Skills
 * Technologies
-* Experience
-* User Preferences
+* Preferences
 
 ---
 
-## 🏗 Technology Stack
+# 🏗 System Architecture
 
-### Frontend
+## Frontend
 
 * React
 * TypeScript
@@ -135,16 +229,20 @@ Manage:
 * React Router
 * Axios
 
-### Design
+---
 
-* Responsive UI
-* Modern SaaS Dashboard
-* Dark Theme Support
+## Design Principles
+
+* Responsive Design
 * Component-Based Architecture
+* Reusable UI Components
+* Modern SaaS Experience
+* Dark Theme Support
+* Scalable Structure
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 src/
@@ -172,40 +270,40 @@ src/
 
 ---
 
-## 🎯 Use Cases
+# 💡 Use Cases
 
 * Knowledge Retention
 * Developer Onboarding
 * Engineering Management
 * Technical Documentation
+* Repository Intelligence
 * Team Analytics
 * Knowledge Risk Assessment
-* Repository Intelligence
 
 ---
 
-## 🚀 Getting Started
+# 🚀 Installation
 
-### Clone Repository
+Clone Repository
 
 ```bash
 git clone https://github.com/saichunduru5/developer-twin-ai.git
 cd developer-twin-ai
 ```
 
-### Install Dependencies
+Install Dependencies
 
 ```bash
 npm install
 ```
 
-### Start Development Server
+Run Development Server
 
 ```bash
 npm run dev
 ```
 
-### Production Build
+Build Production Version
 
 ```bash
 npm run build
@@ -213,34 +311,48 @@ npm run build
 
 ---
 
-## 🎓 Learning Objectives
+# 🎓 Skills Demonstrated
 
 This project demonstrates:
 
-* Modern Frontend Development
-* React + TypeScript Architecture
+* React Development
+* TypeScript Development
+* Tailwind CSS
 * SaaS Dashboard Design
+* Component Architecture
+* UI/UX Design
 * Knowledge Management Concepts
-* Component-Based UI Development
-* Technical Documentation Design
 * Software Architecture Planning
+* Frontend Deployment
+* Git & GitHub Workflow
 
 ---
 
-## 👨‍💻 Author
+# 🚀 Deployment
 
-**Chunduru Sai**
+Hosted on Vercel
+
+Live URL:
+
+https://developer-twin-ai.vercel.app
+
+---
+
+# 👨‍💻 Author
+
+Chunduru Sai
 
 B.Tech Information Technology
 
 Full Stack Developer
 
-GitHub: https://github.com/saichunduru5
+GitHub:
+https://github.com/saichunduru5
 
 ---
 
-## ⭐ Vision
+# ⭐ Vision
 
-The goal of Developer Twin AI is to ensure that valuable software engineering knowledge remains accessible, searchable, and reusable throughout the lifecycle of a project.
+Developer Twin AI aims to ensure that valuable engineering knowledge remains accessible, searchable, and reusable throughout the lifecycle of a software project.
 
-**People Leave. Knowledge Stays.**
+## People Leave. Knowledge Stays.
